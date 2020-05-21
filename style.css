@@ -1,5 +1,6 @@
 :root {
     background-color: #018DED;
+    text-shadow: 2px 2px rgba(0,0,0,0.23);
 }
 #container {
     text-align: center;
@@ -19,8 +20,12 @@
 }
 #controls {
     opacity: 0.7;
-    
+    display: inline-block;
+    margin: auto 20px auto 20px;
+    background-color: #018DED;
+    font-size: 1.6em;
+    padding: 5px;
 }
-.hover {
-
+button:hover {
+    transform: scale(1.1);
 }
